@@ -12,17 +12,17 @@ day_night = true
 font = "default"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Wash Your Hands is a project to explore the intersection of public health, technology, and communication."
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
+#sharing_image = ""
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = ""
+# twitter = ""
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-logo = ""
+#logo = ""
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -61,19 +61,19 @@ privacy_pack = false
 gravatar = false
 
 # Contact Widget setup
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+ # email = "test@example.org"
+  address = "Washington DC, USA"
   # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-  office_hours = """Monday 10:00 to 13:00<br>
-                    Wednesday 09:00 to 10:00<br>
-                    Otherwise email to book an appointment"""
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
-  keybase = ""  # Your keybase.io username.
+  #office_hours = """Monday 10:00 to 13:00<br>
+                   # Wednesday 09:00 to 10:00<br>
+                    #Otherwise email to book an appointment"""
+  #phone = "888 888 88 88"
+  #skype = "echo123"
+  #telegram = ""
+  #keybase = ""  # Your keybase.io username.
 
   # Enter an optional link for booking appointments (e.g. calendly.com).
-  appointment_url = ""
+  #appointment_url = ""
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -94,10 +94,10 @@ gravatar = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
-  map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  map = 3
+  map_api_key = "pk.eyJ1IjoiamVjaGFtYmVycyIsImEiOiJjams4a3IzNGEybHRlM2xtbHBlMHRoeDhpIn0.mgp7tExCLYfm_8VCHm13lQ"
+  latitude = "38.9072"
+  longitude = "77.0369"
   zoom = 15
 
 # Publication types.
@@ -122,8 +122,8 @@ menu_align_right = false
 
 # Link custom CSS and JS assets
 #   (relative to /static/css and /static/js respectively)
-custom_css = []
-custom_js  = []
+#custom_css = []
+#custom_js  = []
 
 # Configuration of talk pages.
 [talks]
@@ -139,13 +139,13 @@ custom_js  = []
 # Configuration of project pages.
 [projects]
   # List publications and talks related to the project?
-  list_children = true
+  #list_children = true
 
   # Post list format.
   #   0 = Simple
   #   1 = Detailed
   #   2 = Stream
-  post_format = 2
+  #post_format = 0
 
   # Publication list format.
   #   0 = Simple
@@ -153,13 +153,13 @@ custom_js  = []
   #   2 = APA
   #   3 = MLA
   #   4 = Stream
-  publication_format = 4
+  #publication_format = 0
 
   # Talk list format.
   #   0 = Simple
   #   1 = Detailed
   #   2 = Stream
-  talk_format = 2
+  #talk_format = 0
 
 # Search.
 [search]
@@ -167,12 +167,12 @@ custom_js  = []
   #   0: No search engine
   #   1: Built-in (Fuse)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+ # engine = 1
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
   [search.algolia]
-    app_id = ""
-    api_key = ""
-    index_name = ""
-    show_logo = false
+    #app_id = ""
+    #api_key = ""
+    #index_name = ""
+    #show_logo = false
